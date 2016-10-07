@@ -5,7 +5,7 @@
 # declare variables
 
 PYTHON_PATH=python3
-BOTTLE_PATH=$HOME/py/bottle2.py
+BOTTLE_PATH=$HOME/weather_py/bottle2.py
 
 echo "Starting bottle webserver in background"
 nohup  $PYTHON_PATH $BOTTLE_PATH &
