@@ -4,9 +4,10 @@
 
 # declare variables
 
-PYTHON_PATH=python3
-BOTTLE_PATH=$HOME/weather_py/bottle2.py
+. ./vars.sh
 
 echo "Starting bottle webserver in background"
+echo "Supports the weather program"
+echo "PYTHON_PATH=$PYTHON_PATH"
+echo "BOTTLE_PATH=$BOTTLE_PATH"
 nohup  $PYTHON_PATH $BOTTLE_PATH &
-echo "Done"
